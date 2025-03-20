@@ -1,15 +1,12 @@
 // Assignment 2 
 
-prompt("enter a price tag")
 
-
-let price = "$29.39";
+let price = prompt("Enter a price tag");
 console.log(price);
 
-
-price = parseFloat("$29.39".slice(1));
+price = parseFloat(price.slice(1));
 console.log(typeof price); 
-console.log(price);
+console.log(price)
 
 
 price = price * 0.9;
